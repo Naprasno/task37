@@ -1,0 +1,150 @@
+body{
+	font-family: Roboto;
+}
+.vh-100 {
+	min-height: 100vh;
+}
+.w-400 {
+	width: 625px;
+}
+
+.fs-xs {
+	font-size: 1rem;
+}
+.w-10 {
+	width: 22px;
+}
+a {
+	text-decoration: none;
+	color: #444;
+}
+.fs-big {
+	font-size: 5rem !important;
+}
+.online {
+	width: 10px;
+	height: 10px;
+	background: green;
+	border-radius: 50%;
+}
+.w-15 {
+	width: 15%;
+}
+.fs-sm {
+	font-size: 12px;
+}
+small {
+
+	font-size: 0.7rem;
+	text-align: right;
+}
+.chat-box {
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 354px;
+}
+.rtext {
+	width: 65%;
+	background: #3289c8;
+	color: #fff;
+	font-size: 12px;
+}
+
+.ltext {
+	width: 65%;
+	background: #f8f9fa;
+	color: #444;
+	font-size: 12px;
+}
+/* width */
+*::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+*::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+*::-webkit-scrollbar-thumb {
+  background: #aaa;
+}
+
+/* Handle on hover */
+*::-webkit-scrollbar-thumb:hover {
+  background: #3289c8;
+}
+
+textarea {
+	resize: none;
+}
+
+.content {
+	width: 922px;
+	
+	margin: 0 auto;
+}
+#chatList{
+	padding: 0px;
+	margin: 0px;
+}
+.left_block{
+	width: 198px;
+	height: 500px;
+	background: #C4C4C4;
+	display: block;
+	position: relative;
+	float: left;
+}
+.middle_block{
+	width: 625px;
+	height: 500px;
+	background: #C4C4C4;
+	display: block;
+	position: relative;
+	float: left;
+	border-right: solid;
+    border-left: solid;
+    border-width: 1px;
+}
+.right_block{
+	width: 99px;
+	height: 500px;
+	background: #C4C4C4;
+	display: block;
+	position: relative;
+	float: left;
+}
+
+.list {
+	padding: 3px 0px 0px 5px;
+}
+.list-group-item{
+	border: none;
+	background-color: #C4C4C4;
+}
+.right_block_elem {
+	padding: 12px 0px 0px 15px;
+	font-size: 12px;
+}
+#sendBtn{
+	background: white;
+	border: none;
+}
+
+.text{
+	width: 603px;
+	top: 18px;
+    left: -13px;
+}
+.w125 {
+	height: 125px;
+	width: 125px;
+}
+.btnhome{
+	width: 100px;
+}
+.btnset{
+	margin-bottom: 40px;
+}
